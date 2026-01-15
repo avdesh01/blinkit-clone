@@ -1,0 +1,256 @@
+
+/* 
+/* =========================
+   HEADER RESPONSIVE
+========================= */
+@media (max-width: 992px) {
+  .header-container {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .search {
+    order: 3;
+    width: 100%;
+    max-width: 100%;
+    margin: 10px 0;
+  }
+
+  .location {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    height: auto;
+    padding: 10px;
+  }
+
+  .logo {
+    border-right: none;
+  }
+
+  .actions a {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+}
+
+/* =========================
+   BANNERS
+========================= */
+@media (max-width: 768px) {
+  .bann {
+    margin-left: 0;
+  }
+
+  .middle {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .ban img {
+    width: 100%;
+  }
+}
+
+/* =========================
+   CATEGORY GRID (Grocery)
+========================= */
+@media (max-width: 992px) {
+  .Grocery {
+    justify-content: center;
+  }
+
+  .items {
+    flex-basis: 20%;
+  }
+}
+
+@media (max-width: 768px) {
+  .items {
+    flex-basis: 33%;
+  }
+}
+
+@media (max-width: 480px) {
+  .items {
+    flex-basis: 50%;
+  }
+}
+
+/* =========================
+   PRODUCT SECTION
+========================= */
+@media (max-width: 992px) {
+  .productItem {
+    width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .productRow {
+    justify-content: center;
+  }
+
+  .productItem {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .productItem {
+    width: 90%;
+  }
+
+  .productDetails h3 {
+    font-size: 13px;
+  } */
+/* TABLET */
+@media (max-width: 992px) {
+  .category {
+    width: 20%;
+  }
+
+  .product-card {
+    width: 30%;
+  }
+
+  .search {
+    max-width: 100%;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .header-container {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .quick-links {
+    flex-direction: column;
+  }
+
+  .category {
+    width: 33%;
+  }
+
+  .product-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .category {
+    width: 50%;
+  }
+
+  .product-card {
+    width: 90%;
+  }
+} */
+
+@media (max-width: 992px) {
+  .product-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .categories {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .header-inner {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .quick-cards {
+    flex-direction: column;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .categories {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .categories {
+    grid-template-columns: repeat(2, 1fr);
+  }
+} */
+
+
+/* =====================================
+   RESPONSIVE DESIGN – DESKTOP → MOBILE
+===================================== */
+
+/* ---------- TABLET & SMALL LAPTOP ---------- */
+@media (max-width: 992px) {
+
+  /* Header */
+  .header-container {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .search {
+    max-width: 100%;
+    margin: 10px 0;
+  }
+
+  /* Main Banner */
+  .bann {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  /* Middle banners */
+  .middle {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ban img {
+    width: 100%;
+  }
+
+  /* Grocery Categories */
+  .Grocery {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .items {
+    flex-basis: 20%;
+    justify-content: center;
+  }
+
+  /* Product Grid */
+  .productRow {
+    flex-wrap: wrap;
+  }
+
+  .productItem {
+    width: 30%;
+  }
+
+  /* Section Titles */
+  .tabacoo h2 {
+    margin-left: 20px;
+  }
+}
